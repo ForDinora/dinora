@@ -28,12 +28,7 @@
 </div>
 
 <br/>
-<div align="center">
-This boilerplate make it easier to get started with a well-structured Svelte application.
-<br />
-<br />
-  <sub>Created by <a href="[https://www.pankod.com](https://images.app.goo.gl/RaweT67u9k6zGFZo6)">Pankod</a></sub>
-</div>
+
 
 
 ## About
@@ -107,3 +102,10 @@ After answering question it generates component, style and test files in milisec
 ## License
 
 Licensed under the MIT License, Copyright © 2019-present Pankod
+
+<div align="center">
+This boilerplate make it easier to get started with a well-structured Svelte application.
+<br />
+<br />
+  <sub>Created by <a href="[https://www.facebook.com/mmanuchekhr)">Manuchekhr</a></sub>
+</div>
