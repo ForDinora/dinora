@@ -107,5 +107,5 @@ Licensed under the MIT License, Copyright © 2019-present Pankod
 This boilerplate make it easier to get started with a well-structured Svelte application.
 <br />
 <br />
-  <sub>Created by <a href="[https://www.facebook.com/mmanuchekhr)">Manuchekhr</a></sub>
+  <sub>Created by <a href="https://www.facebook.com/mmanuchekhr">Manuchehkhr</a></sub>
 </div>
