@@ -1,17 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Heart Pattern Background</title>
+  <title>Creative Text Block Example</title>
   <style>
-    body {
-      background-image: url("https://github.com/fordinora/frommanu/raw/main/img24.png");
-      background-repeat: repeat;
+    .text-block {
+      background: linear-gradient(-45deg, #f4e3e5, #fff6f6);
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 24px;
+      line-height: 1.5;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .text-block::before {
+      content: "";
+      position: absolute;
+      top: -100%;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(45deg, #fff6f6, #f4e3e5);
+      animation: slide 2s linear infinite;
+      z-index: -1;
+    }
+
+    @keyframes slide {
+      0% {
+        transform: translateY(-100%);
+      }
+      100% {
+        transform: translateY(100%);
+      }
     }
   </style>
 </head>
 <body>
-  <!-- your content here -->
+  <div class="text-block">
+    <p>This is an example of a creative text block.</p>
+    <p>It has a gradient background and a sliding animation effect.</p>
+  </div>
 </body>
 </html>
-
-
