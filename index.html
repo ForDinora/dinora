@@ -1,54 +1,41 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Eventually by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-  <title>Creative Text Block Example</title>
-  <style>
-    .text-block {
-      background: linear-gradient(-45deg, #f4e3e5, #fff6f6);
-      padding: 20px;
-      border-radius: 20px;
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-      text-align: center;
-      font-family: Arial, sans-serif;
-      font-size: 24px;
-      line-height: 1.5;
-      position: relative;
-      overflow: hidden;
-    }
+	<head>
+		<title>Proposal page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-    .text-block::before {
-      content: "";
-      position: absolute;
-      top: -100%;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      background: linear-gradient(45deg, #fff6f6, #f4e3e5);
-      animation: slide 2s linear infinite;
-      z-index: -1;
-    }
+		<!-- Header -->
+			<header id="header">
+				<h1>Text!</h1>
+				<p>Хочу, чтобы ты стала Мухамедовой. Хочу быть с тобой навсегда. Ты согласна?<br />
+				your next big thing. Brought to you by <a href="http://html5up.net">HTML5 UP</a>.</p>
+			</header>
 
-    @keyframes slide {
-      0% {
-        transform: translateY(-100%);
-      }
-      100% {
-        transform: translateY(100%);
-      }
-    }
-  </style>
-  
-    <style>
-    body {
-      background-image: url("https://github.com/fordinora/frommanu/raw/main/img23.png");
-      background-repeat: repeat;
-    }
-  </style>
-</head>
-<body>
-  <div class="text-block">
-    <p>This is an example of a creative text block.</p>
-    <p>It has a gradient background and a sliding animation effect.</p>
-  </div>
-</body>
+		<!-- Signup Form -->
+			<form id="signup-form" method="post" action="#">
+				<input type="email" name="email" id="email" placeholder="Email Address" />
+				<input type="submit" value="Sign Up" />
+			</form>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<ul class="copyright">
+					<li>by <a href="https://t.me/m_manuchekhr">Manuchekhr</a></li> <li>made with Love</li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
