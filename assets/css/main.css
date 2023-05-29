@@ -733,16 +733,16 @@ button,
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-  background-color: #ffffff;
-  border-radius: 10px;
+  background-color: #831DBF;
+  border-radius: 6px;
   border: 0;
   color: #ffffff !important;
   cursor: pointer;
   display: inline-block;
   font-weight: 700;
-  height: 4.75em;
+  height: 1.75em;
   line-height: 2.75em;
-  padding: 0 7.125em;
+  padding: 7.125em;
   text-align: center;
   text-decoration: none;
   white-space: nowrap; }
